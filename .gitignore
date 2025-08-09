@@ -1,18 +1,36 @@
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.venv/
 .env
-*.mp4
-*.wav
-runs/
+*.env
+
+# Outputs & data
+output/
 outputs/
+video data/
+
+# Runs & caches
+runs/
 .cache/
+.pytest_cache/
 .whisper/
+
+# Logs
 *.log
-# Streamlit
+logs/
+
+# Streamlit / WebRTC
 .streamlit/
 .streamlit-webrtc/
 *.webm
 *.webp
-# OS/IDE
+
+# OS / IDE
 .DS_Store
 Thumbs.db
 .vscode/
+.idea/
