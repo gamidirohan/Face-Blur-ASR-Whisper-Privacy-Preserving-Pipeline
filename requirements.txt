@@ -1,0 +1,22 @@
+opencv-python
+numpy
+torch
+openai-whisper
+ffmpeg-python
+tqdm
+loguru
+pytest
+moviepy
+grpcio
+# Added for HF audio pipeline and evaluation
+transformers
+datasets
+evaluate
+jiwer
+# Live UI
+streamlit
+streamlit-webrtc
+aiortc
+av
+# Optional faster ASR backend
+faster-whisper
