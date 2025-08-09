@@ -1,17 +1,9 @@
 # Face Blur + ASR (Whisper) — Privacy-Preserving Pipeline
 
 <p align="center">
-  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white"></a>
-  <a href="https://streamlit.io/"><img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white"></a>
-  <a href="#license"><img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg"></a>
-  <a href="https://github.com/openai/whisper"><img alt="Whisper" src="https://img.shields.io/badge/ASR-Whisper-blue"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-informational">
-</p>
-
-<p align="center">
-  <video src="demo/cursorful-video-1754726632749.mp4" controls width="720" muted>
-    <a href="demo/cursorful-video-1754726632749.mp4">Download the demo video</a>
-  </video>
+  <img src="demo/demo-preview.gif" width="720" alt="Demo preview" />
+  <br/>
+  <a href="https://raw.githubusercontent.com/gamidirohan/Face-Blur-ASR-Whisper-Privacy-Preserving-Pipeline/main/demo/cursorful-video-1754726632749.mp4">▶ Watch the full demo (MP4)</a>
 </p>
 
 Real-time and batch tool to anonymize faces in video and generate captions/transcripts using Whisper.
