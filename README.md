@@ -3,7 +3,7 @@
 <p align="center">
   <img src="demo/demo-preview.gif" width="720" alt="Demo preview" />
   <br/>
-  <a href="https://raw.githubusercontent.com/gamidirohan/Face-Blur-ASR-Whisper-Privacy-Preserving-Pipeline/main/demo/cursorful-video-1754726632749.mp4">▶ Watch the full demo (MP4)</a>
+  <a href="https://raw.githubusercontent.com/gamidirohan/Face-Blur-ASR-Whisper-Privacy-Preserving-Pipeline/main/demo/cursorful-video-1754726632749_half.mp4">▶ Watch the short demo (MP4)</a>
 </p>
 
 Real-time and batch tool to anonymize faces in video and generate captions/transcripts using Whisper.
@@ -82,7 +82,7 @@ uv pip install -r requirements.txt --python .\.venv\Scripts\python.exe
 
 - Streamlit app loading .env first (one-liner):
 ```
-Set-Location -LiteralPath "d:\College\Projects\CodeFour AI (comp)\face_blur_asr"; `
+Set-Location -LiteralPath "d:\\College\\Projects\\CodeFour AI (comp)\\face_blur_asr"; `
 if (Test-Path .env) { Get-Content .env | % { if ($_ -and $_ -notmatch '^\s*#') { $n,$v = $_ -split '=',2; if ($n) { $env:$n = $v.Trim('"') } } } }; `
 .\.venv\Scripts\streamlit.exe run app.py
 ```
@@ -114,7 +114,7 @@ git push -u origin main
 ## Streamlit Live App (Webcam)
 Run (loads .env if present):
 ```
-Set-Location -LiteralPath "d:\College\Projects\CodeFour AI (comp)\face_blur_asr"; `
+Set-Location -LiteralPath "d:\\College\\Projects\\CodeFour AI (comp)\\face_blur_asr"; `
 if (Test-Path .env) { Get-Content .env | % { if ($_ -and $_ -notmatch '^\s*#') { $n,$v = $_ -split '=',2; if ($n) { $env:$n = $v.Trim('"') } } } }; `
 .\.venv\Scripts\streamlit.exe run app.py
 ```
